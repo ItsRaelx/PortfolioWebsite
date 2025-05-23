@@ -23,6 +23,9 @@ export function HeroSection() {
     <section className="container py-24 sm:py-32">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="flex flex-col gap-4">
+          <div className="text-lg text-turquoise font-medium">
+            {t("personal.name")}
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             {t("hero.title")} <span className="gradient-text">{t("hero.titleHighlight")}</span>
           </h1>

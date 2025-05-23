@@ -8,6 +8,9 @@ export type Translations = {
 
 export const translations: Translations = {
   en: {
+    // Personal Information
+    "personal.name": "Dawid (Raelx) Iwański",
+    
     // Navigation
     "nav.about": "About",
     "nav.skills": "Skills",
@@ -129,6 +132,9 @@ export const translations: Translations = {
     "language.pl": "Polish",
   },
   pl: {
+    // Personal Information
+    "personal.name": "Dawid (Raelx) Iwański",
+    
     // Navigation
     "nav.about": "O mnie",
     "nav.skills": "Umiejętności",
