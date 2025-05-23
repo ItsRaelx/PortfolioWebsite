@@ -7,42 +7,38 @@ import { useLanguage } from "@/lib/i18n/language-context"
 export function ProjectsSection() {
   const { t } = useLanguage()
 
-  const getProjectsForLanguage = () => {
-    return [
-      {
-        title: t("projects.raidvm.title"),
-        description: t("projects.raidvm.description"),
-        tags: [t("tag.infrastructure"), t("tag.virtualization"), t("tag.networking"), t("tag.security")],
-        link: "https://raidvm.com",
-      },
-      {
-        title: t("projects.wireguard.title"),
-        description: t("projects.wireguard.description"),
-        tags: [t("tag.wireguard"), t("tag.networking"), t("tag.security"), t("tag.linux")],
-        link: "#",
-      },
-      {
-        title: t("projects.deployment.title"),
-        description: t("projects.deployment.description"),
-        tags: [t("tag.devops"), t("tag.automation"), t("tag.docker")],
-        link: "#",
-      },
-      {
-        title: t("projects.monitoring.title"),
-        description: t("projects.monitoring.description"),
-        tags: [t("tag.monitoring"), t("tag.alerting"), t("tag.dashboard"), t("tag.analytics")],
-        link: "#",
-      },
-      {
-        title: t("projects.as209764.title"),
-        description: t("projects.as209764.description"),
-        tags: [t("tag.networking"), t("tag.bgp"), t("tag.asn"), t("tag.infrastructure")],
-        link: "https://bgp.tools/as/209764",
-      },
-    ]
-  }
-
-  const projects = getProjectsForLanguage()
+  const projects = [
+    {
+      title: t("projects.raidvm.title"),
+      description: t("projects.raidvm.description"),
+      tags: [t("tag.infrastructure"), t("tag.virtualization"), t("tag.networking"), t("tag.security")],
+      link: "https://raidvm.com",
+    },
+    {
+      title: t("projects.wireguard.title"),
+      description: t("projects.wireguard.description"),
+      tags: [t("tag.wireguard"), t("tag.networking"), t("tag.security"), t("tag.linux")],
+      link: "#",
+    },
+    {
+      title: t("projects.deployment.title"),
+      description: t("projects.deployment.description"),
+      tags: [t("tag.devops"), t("tag.automation"), t("tag.docker")],
+      link: "#",
+    },
+    {
+      title: t("projects.monitoring.title"),
+      description: t("projects.monitoring.description"),
+      tags: [t("tag.monitoring"), t("tag.alerting"), t("tag.dashboard"), t("tag.analytics")],
+      link: "#",
+    },
+    {
+      title: t("projects.as209764.title"),
+      description: t("projects.as209764.description"),
+      tags: [t("tag.networking"), t("tag.bgp"), t("tag.asn"), t("tag.infrastructure")],
+      link: "https://bgp.tools/as/209764",
+    },
+  ]
 
   return (
     <section id="projects" className="container py-24 sm:py-32 bg-blacc-light">

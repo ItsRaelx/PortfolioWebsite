@@ -8,24 +8,17 @@ export type Translations = {
 
 export const translations: Translations = {
   en: {
-    // Personal Information
     "personal.name": "Dawid (Raelx) Iwański",
-    
-    // Navigation
     "nav.about": "About",
     "nav.skills": "Skills",
     "nav.projects": "Projects",
     "nav.contact": "Contact",
-
-    // Hero Section
     "hero.title": "SysAdmin & DevOps",
     "hero.titleHighlight": "Professional",
     "hero.subtitle": "IT Student & CEO of",
     "hero.hosting": "hosting",
     "hero.specializing": "Specializing in networking, wireguard, firewalls, and GRE tunnels",
     "hero.contactButton": "Contact Me",
-
-    // About Section
     "about.title": "About Me",
     "about.description":
       "I'm a passionate SysAdmin and DevOps professional with expertise in networking, security, and infrastructure management. Currently serving as the CEO of raidvm.com hosting while pursuing my IT studies.",
@@ -41,16 +34,12 @@ export const translations: Translations = {
     "about.devops.title": "DevOps",
     "about.devops.description":
       "Bridging development and operations with CI/CD pipelines, infrastructure as code, and automated deployment strategies.",
-
-    // Skills Section
     "skills.title": "Technical Skills",
     "skills.description": "My expertise spans across various domains of IT infrastructure and operations.",
     "skills.sysadmin": "System Administration",
     "skills.networking": "Networking",
     "skills.security": "Security",
     "skills.devops": "DevOps",
-
-    // Projects Section
     "projects.title": "Featured Projects",
     "projects.description": "A selection of my professional projects and technical implementations.",
     "projects.raidvm.title": "RaidVM Hosting",
@@ -68,8 +57,6 @@ export const translations: Translations = {
     "projects.as209764.title": "AS209764 Network Operations",
     "projects.as209764.description":
       "Ownership and management of Autonomous System AS209764, handling BGP routing, IP address space allocation, and interconnection with global network providers.",
-
-    // Contact Section
     "contact.title": "Get In Touch",
     "contact.description":
       "Have a project in mind or want to discuss potential collaborations? Feel free to reach out!",
@@ -78,13 +65,9 @@ export const translations: Translations = {
     "contact.github": "GitHub",
     "contact.discord": "Discord",
     "contact.connect": "Connect on Discord",
-
-    // Footer
     "footer.quickLinks": "Quick Links",
     "footer.connect": "Connect",
     "footer.rights": "All rights reserved.",
-
-    // Skills
     "skill.linux": "Linux Server Management",
     "skill.windows": "Windows Server",
     "skill.virtualization": "Virtualization",
@@ -108,8 +91,6 @@ export const translations: Translations = {
     "skill.ansible": "Ansible",
     "skill.git": "Git",
     "skill.monitoring": "Monitoring",
-
-    // Tags
     "tag.infrastructure": "Infrastructure",
     "tag.virtualization": "Virtualization",
     "tag.networking": "Networking",
@@ -125,31 +106,22 @@ export const translations: Translations = {
     "tag.analytics": "Analytics",
     "tag.bgp": "BGP",
     "tag.asn": "ASN",
-
-    // Language
     language: "Language",
     "language.en": "English",
     "language.pl": "Polish",
   },
   pl: {
-    // Personal Information
     "personal.name": "Dawid (Raelx) Iwański",
-    
-    // Navigation
     "nav.about": "O mnie",
     "nav.skills": "Umiejętności",
     "nav.projects": "Projekty",
     "nav.contact": "Kontakt",
-
-    // Hero Section
     "hero.title": "Administrator Systemów & DevOps",
     "hero.titleHighlight": "Profesjonalista",
     "hero.subtitle": "Student IT & CEO",
     "hero.hosting": "hosting",
     "hero.specializing": "Specjalizacja w sieciach, wireguard, firewallach i tunelach GRE",
     "hero.contactButton": "Kontakt",
-
-    // About Section
     "about.title": "O mnie",
     "about.description":
       "Jestem pasjonatem administracji systemów i DevOps z doświadczeniem w sieciach, bezpieczeństwie i zarządzaniu infrastrukturą. Obecnie pełnię funkcję CEO raidvm.com hosting, jednocześnie studiując IT.",
@@ -165,16 +137,12 @@ export const translations: Translations = {
     "about.devops.title": "DevOps",
     "about.devops.description":
       "Łączenie rozwoju i operacji za pomocą potoków CI/CD, infrastruktury jako kodu i zautomatyzowanych strategii wdrażania.",
-
-    // Skills Section
     "skills.title": "Umiejętności Techniczne",
     "skills.description": "Moja wiedza obejmuje różne dziedziny infrastruktury IT i operacji.",
     "skills.sysadmin": "Administracja Systemami",
     "skills.networking": "Sieci",
     "skills.security": "Bezpieczeństwo",
     "skills.devops": "DevOps",
-
-    // Projects Section
     "projects.title": "Wyróżnione Projekty",
     "projects.description": "Wybór moich profesjonalnych projektów i technicznych implementacji.",
     "projects.raidvm.title": "RaidVM Hosting",
@@ -192,8 +160,6 @@ export const translations: Translations = {
     "projects.as209764.title": "Operacje Sieciowe AS209764",
     "projects.as209764.description":
       "Własność i zarządzanie Systemem Autonomicznym AS209764, obsługa routingu BGP, alokacji przestrzeni adresów IP oraz połączeń z globalnymi dostawcami sieci.",
-
-    // Contact Section
     "contact.title": "Skontaktuj się",
     "contact.description": "Masz projekt na myśli lub chcesz omówić potencjalną współpracę? Śmiało się odezwij!",
     "contact.info": "Informacje Kontaktowe",
@@ -201,13 +167,9 @@ export const translations: Translations = {
     "contact.github": "GitHub",
     "contact.discord": "Discord",
     "contact.connect": "Połącz się na Discord",
-
-    // Footer
     "footer.quickLinks": "Szybkie Linki",
     "footer.connect": "Połącz",
     "footer.rights": "Wszelkie prawa zastrzeżone.",
-
-    // Skills
     "skill.linux": "Zarządzanie Serwerami Linux",
     "skill.windows": "Windows Server",
     "skill.virtualization": "Wirtualizacja",
@@ -231,8 +193,6 @@ export const translations: Translations = {
     "skill.ansible": "Ansible",
     "skill.git": "Git",
     "skill.monitoring": "Monitoring",
-
-    // Tags
     "tag.infrastructure": "Infrastruktura",
     "tag.virtualization": "Wirtualizacja",
     "tag.networking": "Sieci",
@@ -248,8 +208,6 @@ export const translations: Translations = {
     "tag.analytics": "Analityka",
     "tag.bgp": "BGP",
     "tag.asn": "ASN",
-
-    // Language
     language: "Język",
     "language.en": "Angielski",
     "language.pl": "Polski",
