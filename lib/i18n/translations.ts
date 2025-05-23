@@ -62,6 +62,9 @@ export const translations: Translations = {
     "projects.monitoring.title": "Network Monitoring System",
     "projects.monitoring.description":
       "Comprehensive monitoring solution for tracking network performance, security, and availability.",
+    "projects.as209764.title": "AS209764 Network Operations",
+    "projects.as209764.description":
+      "Ownership and management of Autonomous System AS209764, handling BGP routing, IP address space allocation, and interconnection with global network providers.",
 
     // Contact Section
     "contact.title": "Get In Touch",
@@ -117,6 +120,8 @@ export const translations: Translations = {
     "tag.alerting": "Alerting",
     "tag.dashboard": "Dashboard",
     "tag.analytics": "Analytics",
+    "tag.bgp": "BGP",
+    "tag.asn": "ASN",
 
     // Language
     language: "Language",
@@ -178,6 +183,9 @@ export const translations: Translations = {
     "projects.monitoring.title": "System Monitorowania Sieci",
     "projects.monitoring.description":
       "Kompleksowe rozwiązanie do monitorowania wydajności, bezpieczeństwa i dostępności sieci.",
+    "projects.as209764.title": "Operacje Sieciowe AS209764",
+    "projects.as209764.description":
+      "Własność i zarządzanie Systemem Autonomicznym AS209764, obsługa routingu BGP, alokacji przestrzeni adresów IP oraz połączeń z globalnymi dostawcami sieci.",
 
     // Contact Section
     "contact.title": "Skontaktuj się",
@@ -232,6 +240,8 @@ export const translations: Translations = {
     "tag.alerting": "Alerty",
     "tag.dashboard": "Dashboard",
     "tag.analytics": "Analityka",
+    "tag.bgp": "BGP",
+    "tag.asn": "ASN",
 
     // Language
     language: "Język",

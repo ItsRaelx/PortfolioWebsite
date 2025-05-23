@@ -33,6 +33,12 @@ export function ProjectsSection() {
         tags: [t("tag.monitoring"), t("tag.alerting"), t("tag.dashboard"), t("tag.analytics")],
         link: "#",
       },
+      {
+        title: t("projects.as209764.title"),
+        description: t("projects.as209764.description"),
+        tags: [t("tag.networking"), t("tag.bgp"), t("tag.asn"), t("tag.infrastructure")],
+        link: "https://bgp.tools/as/209764",
+      },
     ]
   }
 
